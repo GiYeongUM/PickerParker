@@ -23,7 +23,7 @@
 - [최장혁](https://github.com/koptimizer) : 백앤드 서버 개발, 프로젝트 진행 조율 및 관리
 - [이수림](https://github.com/surimLee) : 안드로이드 APP 'PickerParker' 개발
 - [엄기영](https://github.com/GiYeongUM) : 안드로이드 APP 'PickerParker' 개발
-- [김민지](https://github.com/gmksf99) : 내용
+- [김민지](https://github.com/GiYeongUM) : 내용
 - [박민국](https://github.com/GiYeongUM) : 내용
 - [이다연](https://github.com/GiYeongUM) : 내용
 </br>

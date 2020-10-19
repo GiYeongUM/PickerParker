@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorTintOrange"
+    android:layout_height="match_parent"
+    tools:context=".activity.SplashActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/splash_title"
+            android:fontFamily="@font/nanumgothic"
+            android:text="내 손안의 주차장"
+            android:textColor="@color/White"
+            android:layout_marginLeft="2dp"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:id="@+id/splash_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView2"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/nanumgothicbold"
+                android:text="PICKER PARKER"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/White"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="60dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                app:srcCompat="@drawable/whitecar" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

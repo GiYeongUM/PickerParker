@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    android:layout_height="?actionBarSize"
+    android:layout_width="match_parent"
+    android:id="@+id/my_toolbar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/White"
+    android:elevation="1dp"
+    app:popupTheme="@style/ActionBarTheme">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="52dp"
+            android:background="@drawable/actionbar_logo3"
+            android:layout_marginRight="10dp"
+            android:adjustViewBounds="true"
+            />
+
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.Toolbar>

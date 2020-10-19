@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/tools"
+    android:background="#F3F2F2"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="8dp"
+        app:cardCornerRadius="7dp"
+        app:cardElevation="0dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="140dp"
+            android:layout_height="120dp"
+            app:cardCornerRadius="7dp"
+            app:cardElevation="0dp"
+            android:layout_marginVertical="8dp"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:id="@+id/Parking_parkinglotImage"
+                android:layout_width="140dp"
+                android:layout_height="120dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="158dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Parking_parkinglotName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="주차장 이름"
+                    android:fontFamily="@font/notosans_regular"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.7dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:backgroundTint="#989898"
+                android:background="@color/darkgray"></View>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="주소"
+                    android:fontFamily="@font/notosans_regular"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/Parking_parkinglotAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:textFontWeight="100"
+                    android:text="경기도 시흥시 정왕동 2121-1 \n 한국산업기술대학교 종합관 "
+                    android:fontFamily="@font/notosans_regular"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="가격"
+                    android:fontFamily="@font/notosans_regular"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/Parking_parkinglotPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:text="시간 당 1,000원"
+                    android:textFontWeight="100"
+                    android:fontFamily="@font/notosans_regular"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/btn_edit_info"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/ic_baseline_settings_24"
+                    android:fontFamily="@font/notosans_regular"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textFontWeight="100"
+                android:fontFamily="@font/notosans_regular"
+                android:text="정보 수정"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="13sp"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="136dp"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btn_setting_sharetime"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="183dp"
+                android:layout_height="32dp"
+                android:background="@drawable/btn_orange"
+                android:paddingTop="-5dp"
+                android:fontFamily="@font/notosans_regular"
+                android:text="공유 시간 설정"
+                android:textColor="@android:color/white"
+                android:textSize="13sp" />
+            <Button
+                android:id="@+id/btn_reservation"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="183dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="10dp"
+                android:paddingTop="-5dp"
+                android:background="@drawable/btn_orange_stroke"
+                android:fontFamily="@font/notosans_regular"
+                android:text="예약 조회"
+                android:textColor="@color/colorTintOrange"
+                android:textSize="13sp" />
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

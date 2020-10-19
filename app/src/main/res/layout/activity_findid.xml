@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top|center"
+    android:paddingTop="50dp"
+    android:background="@color/White"
+    tools:context=".activity.FineIDActivity">
+
+
+    <EditText
+        android:id="@+id/fineID_edittext_name"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_selector"
+        android:fontFamily="@font/nanumgothic"
+        android:hint="이름을 입력해주세요."
+        android:textCursorDrawable="@drawable/cursor_color"
+        android:maxLines="1"
+        android:paddingVertical="16dp"
+        android:paddingLeft="15dp"
+        android:textColor="#000000"
+        android:textColorHint="#BABABA"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/fineID_edittext_email"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/login_selector"
+        android:fontFamily="@font/nanumgothic"
+        android:hint="이메일을 입력해주세요."
+        android:textCursorDrawable="@drawable/cursor_color"
+        android:maxLines="1"
+        android:paddingVertical="16dp"
+        android:paddingLeft="15dp"
+        android:textColorHint="#BABABA"
+        android:textSize="14sp"/>
+
+    <Button
+        android:id="@+id/btn_find_id_finish"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingVertical="10dp"
+        android:background="@drawable/btn_orange"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/nanumgothicbold"
+        android:text="확인"
+        style="?android:attr/borderlessButtonStyle"
+        android:textSize="15sp"
+        />
+
+
+
+</LinearLayout>

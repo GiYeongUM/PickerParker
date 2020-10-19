@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".activity.SignupActivity2">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@drawable/login_icon"
+        android:id="@+id/signupActiviy_imageview_profile"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_margin="30dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/signupActiviy_edittext_email"
+            android:hint="이메일"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/signupActiviy_edittext_name"
+            android:hint="이름"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/signupActiviy_edittext_ID"
+            android:hint="아이디"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/signupActiviy_edittext_password"
+            android:hint="패스워드"
+            android:inputType="textPassword"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/signupActiviy_edittext_phonenumber"
+            android:hint="전화번호"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/signupActiviy_edittext_nickname"
+            android:hint="닉네임"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/signupActiviy_edittext_carnumber"
+            android:hint="차번호"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:text="회원가입"
+        android:layout_marginTop="50dp"
+        android:id="@+id/signupActiviy_button_signup"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

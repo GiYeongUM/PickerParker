@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sothree.slidinguppanel.SlidingUpPanelLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sliding_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    tools:context=".activity.MainActivity"
+    app:umanoPanelHeight="45dp"
+    app:umanoShadowHeight="0dp"
+    app:umanoDragView="@id/dragView"
+    app:umanoOverlay = "true"
+    android:background="@android:color/transparent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/homefragment"
+            android:orientation="horizontal"
+            android:background="@android:color/transparent"
+            >
+
+            <EditText
+                android:id="@+id/search_edt"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:hint="   어디에 주차하세요?"
+                android:background="@drawable/edit_text_box"
+                />
+
+            <ImageButton
+                android:id="@+id/search_btn"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/search_icon"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"
+                android:background="#ffffff"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:layout_weight="1">
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:name="com.google.android.gms.maps.MapFragment" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/dragView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="false"
+        android:background="@drawable/radiuswhite"
+        android:orientation="vertical">
+
+        <com.google.android.material.tabs.TabLayout
+            app:tabTextAppearance="@style/tab_text"
+            android:background="@android:color/transparent"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tabs">
+
+        </com.google.android.material.tabs.TabLayout>
+
+        <!-- 스크롤 해서 보여줄 부분은 listview 또는 custom listview 또는 recyclerview를 사용 -->
+        <FrameLayout
+            android:id="@+id/frame_view"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            tools:layout_editor_absoluteX="8dp"
+            >
+            <LinearLayout
+                android:id="@+id/tab1_layout"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_gravity="bottom"
+                android:visibility="gone"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tab1_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="선택된 주차장이 없습니다시마">
+                </TextView>
+                <ListView
+                    android:id="@+id/picked_parkinglot"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@android:color/transparent"
+                    android:dividerHeight="0dp"
+                    android:scrollbars="vertical" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/tab2_layout"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_gravity="bottom"
+                android:visibility="gone">
+                <ListView
+                    android:id="@+id/list_parkinglot"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@android:color/transparent"
+                    android:dividerHeight="0dp"
+                    android:scrollbars="vertical" />
+            </LinearLayout>
+        </FrameLayout>
+    </RelativeLayout>
+
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

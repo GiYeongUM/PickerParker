@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">피커파커</string>
+    <string name="title_Map">탐색</string>
+    <string name="title_Bookinglist">내역</string>
+    <string name="title_Profile">내정보</string>
+    <string name="title_Parking">내 주차장</string>
+    <string name="hint_address">주소를 입력하세요.</string>
+    <string name="hint_address_detail">주소 나머지 부분을 입력 하세요.</string>
+    <string name="msg_search_address">주소 검색(다음)</string>
+
+    <!-- Ted Permission -->
+    <string name="permission_1">[설정] > [권한] 에서 권한을 허용할 수 있습니다.</string>
+    <string name="permission_2">사진 및 파일을 저장하기 위하여 접근 권한이 필요합니다.</string>
+
+</resources>

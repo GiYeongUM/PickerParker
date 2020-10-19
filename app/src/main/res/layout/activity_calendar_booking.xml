@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+   <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+       xmlns:app="http://schemas.android.com/apk/res-auto"
+       android:id="@+id/calendarView"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       app:mcv_selectionColor="#D1D1D1"
+       app:mcv_showOtherDates="defaults" />
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+      <TextView
+          android:id="@+id/calendar_text1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+         android:layout_marginHorizontal="30dp"
+          android:text=""
+          android:gravity="center"
+          android:textSize="30dp"></TextView>
+
+      <Button
+          android:id="@+id/calendar_btn"
+          android:layout_marginTop="30dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginHorizontal="30dp"
+          android:background="@drawable/btn_orange"
+          android:fontFamily="@font/notosans_regular"
+          android:gravity="center"
+          android:text="선택 완료"
+          android:textColor="@android:color/white"
+          android:textSize="19sp"></Button>
+   </LinearLayout>
+
+</LinearLayout>

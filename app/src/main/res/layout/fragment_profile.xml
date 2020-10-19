@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightgray"
+    tools:context=".activity.MainActivity">
+
+    <include layout="@layout/custom_actionbar"/>
+
+    <LinearLayout
+        android:id="@+id/view_beforeLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/btn_white"
+        android:paddingVertical="20dp">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="피커파커의 서비스를 이용하기 위해서는\n로그인이 필요합니다!"
+            android:textSize="16sp"
+            android:textColor="@color/darkgray"/>
+
+
+        <Button
+            android:id="@+id/LoginButton"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:paddingVertical="10dp"
+            android:background="@drawable/btn_orange"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/nanumgothicbold"
+            android:text="로그인/회원가입"
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/view_afterLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingVertical="20dp"
+        android:background="@drawable/btn_white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal"
+            android:background="@drawable/btn_white"
+            android:paddingVertical="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="38dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:id="@+id/img_profile"
+                    android:layout_width="76dp"
+                    android:layout_height="76dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop" />
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <LinearLayout
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_nickname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="이아무개"
+                    android:textSize="16sp"
+                    android:textColor="@color/darkgray"/>
+
+                <TextView
+                    android:id="@+id/tv_email"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="peterparker1234@gmail.com"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/darker_gray"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_logout"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/logout_button_style_rounded"
+                android:text="로그아웃"
+                android:textColor="@android:color/black"
+                style="?android:attr/borderlessButtonStyle"
+                android:elevation="0dp"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal|bottom"
+            android:background="@drawable/btn_white">
+
+            <Button
+                android:id="@+id/btn_goMypoint"
+                android:layout_width="220dp"
+                android:layout_height="20dp"
+                android:elevation="0dp"
+                android:background="@android:color/white"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="30dp"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:fontFamily="@font/nanumgothic"
+                android:text="내 포인트 >"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/nanumgothicbold"
+                android:text="6,000"
+                android:textColor="@android:color/black"
+                android:textSize="26sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:fontFamily="@font/nanumgothicbold"
+                android:text="Point"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="@android:color/black"></View>
+
+    </LinearLayout>
+
+
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@android:color/white"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:layout_gravity="center_vertical"-->
+        <!--android:paddingTop="8dp"-->
+        <!--android:paddingBottom="50dp"-->
+        <!--&gt;-->
+
+        <!--<de.hdodenhof.circleimageview.CircleImageView-->
+            <!--android:id="@+id/profilePic"-->
+            <!--android:layout_width="90dp"-->
+            <!--android:layout_height="90dp"-->
+            <!--android:src="@drawable/spriderman_icon"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginVertical="10dp"-->
+            <!--/>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_toRightOf="@+id/profilePic"-->
+            <!--android:orientation="vertical"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:layout_marginLeft="10dp">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:fontFamily="@font/nanumgothicbold"-->
+                <!--android:text=" 이아무개"-->
+                <!--android:textColor="@android:color/black"-->
+                <!--android:textSize="16sp" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:fontFamily="@font/nanumgothic"-->
+                <!--android:text=" pickerparkier1234@gmail.com"-->
+                <!--android:textColor="@android:color/darker_gray"-->
+                <!--android:textSize="13sp" />-->
+
+        <!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+
+
+        <Button
+            android:layout_marginBottom="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_white"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/nanumgothic"
+            android:paddingVertical="8dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="55dp"
+            android:text="공지사항                                                                 >"
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="13sp"/>
+        <!--android:drawableLeft="@drawable/announce"-->
+
+        <Button
+            android:id="@+id/test_btn"
+            android:layout_marginBottom="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_white"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/nanumgothic"
+            android:paddingVertical="8dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="55dp"
+            android:text="환경설정                                                                 >"
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="13sp"/>
+        <!--android:drawableLeft="@drawable/setting"-->
+
+        <Button
+            android:layout_marginBottom="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_white"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/nanumgothic"
+            android:paddingVertical="8dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="55dp"
+            android:text="회원 정보 수정                                                        >"
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="13sp"/>
+        <!--android:drawableLeft="@drawable/pen"-->
+
+        <Button
+            android:id="@+id/delete_account_Button"
+            android:layout_marginBottom="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_white"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/nanumgothic"
+            android:paddingVertical="8dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="55dp"
+            android:text="회원 탈퇴                                                                >"
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="13sp"/>
+        <!--android:drawableLeft="@drawable/deleteuser"-->
+
+
+
+        <LinearLayout
+            android:layout_marginBottom="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:paddingVertical="8dp"
+            android:gravity="left"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nanumgothic"
+                android:textColor="@android:color/black"
+                android:text="자동 입차"
+                android:textSize="13sp"
+                android:layout_weight="1"
+                android:layout_marginLeft="55dp"/>
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="30dp"
+                android:textColorLink="@color/colorAccent" />
+
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

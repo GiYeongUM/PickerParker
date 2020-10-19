@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_map"
+        android:icon="@drawable/map_icon"
+        android:label = "@string/title_Map"
+        android:title="@string/title_Map"/>
+
+    <item
+        android:id="@+id/action_bookingList"
+        android:icon="@drawable/booking_icon"
+        android:label = "@string/title_Bookinglist"
+        android:title="@string/title_Bookinglist"/>
+
+    <item
+        android:id="@+id/action_parking"
+        android:icon="@drawable/parkinglot"
+        android:label = "@string/title_Parking"
+        android:title="@string/title_Parking"/>
+
+    <item
+        android:id="@+id/action_profile"
+        android:icon="@drawable/profile_icon"
+        android:label = "@string/title_Profile"
+        android:title="@string/title_Profile"/>
+</menu>

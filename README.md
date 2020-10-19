@@ -1,12 +1,13 @@
 <h1 align="center">
-  <img src = "https://github.com/koptimizer/BabyFirst/blob/master/pics/logo.png" width = "200px"/><br/>
+  <img src = "https://github.com/GiYeongUM/PickerParker/blob/main/imgs/ic_launcher-web.png" width = "250px"/><br/>
    「 PickerParker 」
 </h1>
 <p align="center">
-  <img src = "https://img.shields.io/badge/Language-C-blue"> 
-  <img src = "https://img.shields.io/badge/Language-Java-green"> 
+  <img src = "https://img.shields.io/badge/Language-C++-blue"> 
+  <img src = "https://img.shields.io/badge/Language-Java-green">
+  <img src = "https://img.shields.io/badge/Language-PHP-Yellow">
   <img src = "https://img.shields.io/badge/Environment-Android-yellowgreen">
-  <img src = "https://img.shields.io/badge/Hardware-Arduino-red">
+  <img src = "https://img.shields.io/badge/Hardware-Raspberrypie-red">
 </p>
 <br/>
 

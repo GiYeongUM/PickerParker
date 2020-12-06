@@ -32,15 +32,15 @@
 
 ## 서버 설계
 <h1 align="center">
-  <img src = https://github.com/GiYeongUM/PickerParker/blob/main/imgs/Picker_parker_8.jpg> <br/>
+  <img src = https://github.com/GiYeongUM/PickerParker/blob/main/imgs/Picker_parker_8.jpg" width = "600px"><br/>
   <img src = "https://github.com/koptimizer/BabyFirst/blob/master/pics/act3.jpg" width = "600px"><br/>
 </h1>
 </br>
 
 ## 앱 설계
 <h1 align="center">
-  <img src = https://github.com/GiYeongUM/PickerParker/blob/main/imgs/Picker_parker_8.jpg> <br/>
-  <img src = https://github.com/GiYeongUM/PickerParker/blob/main/imgs/Picker_parker_6.jpg> <br/>
+  <img src = https://github.com/GiYeongUM/PickerParker/blob/main/imgs/Picker_parker_8.jpg" width = "600px"><br/>
+  <img src = https://github.com/GiYeongUM/PickerParker/blob/main/imgs/Picker_parker_6.jpg" width = "600px"><br/>
   <img src = "https://github.com/koptimizer/BabyFirst/blob/master/pics/act3.jpg" width = "600px"><br/>
 </h1>
 </br>

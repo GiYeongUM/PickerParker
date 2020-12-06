@@ -12,20 +12,53 @@
 <br/>
 
 ## 소개
-<img src = "https://github.com/koptimizer/BabyFirst/blob/master/pics/pro.jpg" width = "600px"/><br/>
-- 대중교통에서 임산부는 가장 배려받아야 할 교통약자이지만 현실은 그렇지 못합니다. 특히, 초기 임산부는 타인이 인지하기 어렵기 때문에 먼저 말을 꺼내지 않는 이상 더욱이 눈치를 봐야합니다.
-- 이러한 어려움을 해결하기 위해 개발한 <b>임산부와 임산부좌석을 매칭시켜주는 스마트 임산부 좌석 시스템</b>입니다.
-- 좌석 매칭뿐만 아니라 좌석난방조절 및 임산부에게 도움이 되는 정보, 사이트맵을 제공합니다.
-- 임산부석은 Arduino와 C언어, 매칭 시스템은 블루투스로 통신하며 Android에 Java로 구현하였습니다.
+<img src = "https://github.com/GiYeongUM/PickerParker/blob/main/imgs/news_img.png" width = "600px"/><br/>
+- 운전을 하다보면 주차자리 찾기는 많이 번거롭습니다. 특히, 주말이나 좁은 골목길에서는 거의 불가능합니다.
+- 기사에서 나오듯, 실제 주차자리는 많지만 자리를 찾기 힘든 상황을 해결해주는 <b>PickerParker</b>입니다. 
+- 이 시스템 주차장 등록/검색/예약이 가능하며 개인 수익창출 또한 가능합니다.
+- 라즈베리파이를 이용해 예약된 사용자가 아니면 경고음이 출력되어 불법주차의 예방도 가능합니다.
+- 이 시스템은 디바이스 - 앱 - 서버 가 서로 연동되며 검색/예약/관리/회원은 서버 - 앱끼리 HTTP 통신, 
+  주차시에는 앱 - 디바이스가 BLE시스템으로 통신합니다.
 </br>
 
 ## 팀원
-- [고광종](https://github.com/koptimizer) : 프로젝트 매니지먼트, 클라이언트 개발
-- [엄기영](https://github.com/GiYeongUM) : 아두이노 설계, 블루투스 통신 개발 및 DB 구현
-- [이수빈](https://github.com/gmksf99) : 컴포넌트 및 뷰XML 디자인, 데이터 수집
+- [최장혁](https://github.com/BlazingCode) : 백앤드 서버 개발, 프로젝트 진행 조율 및 관리
+- [이수림](https://github.com/surimLee) : 안드로이드 APP 'PickerParker' 개발
+- [엄기영](https://github.com/GiYeongUM) : 안드로이드 APP 'PickerParker' 개발
+- [김민지](https://github.com/mindi1206) : 내용
+- [박민국](https://github.com/GiYeongUM) : 내용
+- [이다연](https://github.com/GiYeongUM) : 내용
+</br>
+
+## 서버 설계
+<h1 align="center">
+  <img src = https://github.com/koptimizer/BabyFirst/blob/master/pics/flow.png> <br/>
+  <img src = "https://github.com/koptimizer/BabyFirst/blob/master/pics/act3.jpg" width = "600px"><br/>
+</h1>
 </br>
 
 ## 앱 설계
+<h1 align="center">
+  <img src = https://github.com/koptimizer/BabyFirst/blob/master/pics/flow.png> <br/>
+  <img src = "https://github.com/koptimizer/BabyFirst/blob/master/pics/act3.jpg" width = "600px"><br/>
+</h1>
+</br>
+
+## 디바이스 설계
+<h1 align="center">
+  <img src = https://github.com/koptimizer/BabyFirst/blob/master/pics/flow.png> <br/>
+  <img src = "https://github.com/koptimizer/BabyFirst/blob/master/pics/act3.jpg" width = "600px"><br/>
+</h1>
+</br>
+
+## 앱 주요기능
+<h1 align="center">
+  <img src = https://github.com/koptimizer/BabyFirst/blob/master/pics/flow.png> <br/>
+  <img src = "https://github.com/koptimizer/BabyFirst/blob/master/pics/act3.jpg" width = "600px"><br/>
+</h1>
+</br>
+
+## 디바이스 주요기능
 <h1 align="center">
   <img src = https://github.com/koptimizer/BabyFirst/blob/master/pics/flow.png> <br/>
   <img src = "https://github.com/koptimizer/BabyFirst/blob/master/pics/act3.jpg" width = "600px"><br/>

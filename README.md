@@ -25,48 +25,40 @@
 - [최장혁](https://github.com/BlazingCode) : 백앤드 서버 개발, 프로젝트 진행 조율 및 관리
 - [이수림](https://github.com/surimLee) : 안드로이드 APP 'PickerParker' 개발
 - [엄기영](https://github.com/GiYeongUM) : 안드로이드 APP 'PickerParker' 개발
-- [김민지](https://github.com/mindi1206) : 내용
-- [박민국](https://github.com/GiYeongUM) : 내용
-- [이다연](https://github.com/GiYeongUM) : 내용
-</br>
-
-## 서버 설계
-<h1 align="center">
-  <img src = "https://github.com/GiYeongUM/PickerParker/blob/main/imgs/Picker_parker_8.jpg" width = "600px"><br/>
-  <img src = "https://github.com/koptimizer/BabyFirst/blob/master/pics/act3.jpg" width = "600px"><br/>
-</h1>
-</br>
-
-## 앱 설계
-<h1 align="center">
-  <img src = "https://github.com/GiYeongUM/PickerParker/blob/main/imgs/Picker_parker_8.jpg" width = "600px"><br/>
-  <img src = "https://github.com/GiYeongUM/PickerParker/blob/main/imgs/Picker_parker_6.jpg" width = "600px"><br/>
-  <img src = "https://github.com/koptimizer/BabyFirst/blob/master/pics/act3.jpg" width = "600px"><br/>
-</h1>
-</br>
-
-## 디바이스 설계
-<h1 align="center">
-  <img src = https://github.com/koptimizer/BabyFirst/blob/master/pics/flow.png> <br/>
-  <img src = "https://github.com/koptimizer/BabyFirst/blob/master/pics/act3.jpg" width = "600px"><br/>
-</h1>
+- [김민지](https://github.com/mindi1206) : IoT 디바이스 개발
+- [박민국](https://github.com/GiYeongUM) : IoT 디바이스 개발
+- [이다연](https://github.com/GiYeongUM) : IoT 디바이스 개발
 </br>
 
 ## 앱 주요기능
 <h1 align="center">
-  <img src = https://github.com/koptimizer/BabyFirst/blob/master/pics/flow.png> <br/>
-  <img src = "https://github.com/koptimizer/BabyFirst/blob/master/pics/act3.jpg" width = "600px"><br/>
+  <img src = "https://github.com/GiYeongUM/PickerParker/blob/main/imgs/Picker_parker_splah_main.jpg" width = "600px"><br/>
+  <p>[스플래시와 메인 화면]<br/><p/>
 </h1>
 </br>
-
-## 디바이스 주요기능
 <h1 align="center">
-  <img src = https://github.com/koptimizer/BabyFirst/blob/master/pics/flow.png> <br/>
-  <img src = "https://github.com/koptimizer/BabyFirst/blob/master/pics/act3.jpg" width = "600px"><br/>
+  <img src = "https://github.com/GiYeongUM/PickerParker/blob/main/imgs/Picker_parker_user_regisist.jpg" width = "600px"><br/>
+  <p>[로그인과 회원가입]<br/><p/>
 </h1>
 </br>
-
-## 시연영상
-<img src = "https://github.com/koptimizer/BabyFirst/blob/master/pics/simple.gif">
+<h1 align="center">
+  <img src = "https://github.com/GiYeongUM/PickerParker/blob/main/imgs/Picker_parker_login.jpg" width = "600px"><br/>
+  <p>[로그인 상태관리]<br/><p/>
+</h1>
+</br>
+<h1 align="center">
+  <img src = "https://github.com/GiYeongUM/PickerParker/blob/main/imgs/Picker_parker_google_map.jpg" width = "600px"><br/>
+  <p>[구글맵 피커와 클러스터링]<br/><p/>
+</h1>
+</br>
+<h1 align="center">
+  <img src = "https://github.com/GiYeongUM/PickerParker/blob/main/imgs/Picker_parker_my.jpg" width = "900px"><br/>
+  <p>[내 주차장 등록]<br/><p/>
+</h1>
+</br>
+<h1 align="center">
+  <img src = "https://github.com/GiYeongUM/PickerParker/blob/main/imgs/Picker_parker_booking.jpg" width = "900px"><br/>
+  <p>[주차장 예약]<br/><p/>
+</h1>
 </br>
 
